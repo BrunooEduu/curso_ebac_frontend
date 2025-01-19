@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.header-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(226, 226, 226);
+    height: 7vh;
+    width: 100%;
+}
+
+.header-top-title {
+    color:  black;
+}
+
+.header-bottom {
+    height: auto;
+    background-color: rgb(180, 180, 180);
+}
+
+.header-bottom-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+.header-bottom-navbar-item {
+    position: relative;
+}
+
+.header-bottom-navbar-item a {
+    display: block;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none; 
+    text-align: center; 
+    width: 100%; 
+    height: 100%; 
+    padding: 10px;
+}
+
+.header-bottom-navbar-item a:hover {
+    background-color: rgb(226, 226, 226);
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.sessao-titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sessao-esportes {
+    background-color: rgb(252, 209, 129);
+}
+
+.sessao-economia{
+    background-color: rgb(178, 178, 255);
+}
+
+.sessao-educacao{
+    background-color: rgb(255, 170, 241);
+}
+
+.sessao-tecnologia{
+    background-color: rgb(255, 159, 159);
+}
+
+.noticia-imagem {
+    height: 250px;
+    width: 100%;
+}
+
+.noticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    padding: 10px
+}
+
+.noticia-card {
+    border-radius: 10px;
+    width: 30%;
+    padding: 10px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column; /* Alinha itens em uma coluna */
+    justify-content: space-between; /* Distribui espaço entre itens */
+    height: auto; /* Permite altura flexível */
+}
+
+.noticia-ler-mais {
+    padding: 5px;
+    border-radius: 5px;
+    width: 70px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.sessao-economia a {
+    background-color: rgb(142, 142, 255);
+}
+
+.sessao-economia a:hover {
+    background-color: rgb(63, 92, 255);
+}
+
+.sessao-esportes a {
+    background-color: rgb(245, 188, 81);
+}
+
+.sessao-esportes a:hover {
+    background-color: rgb(247, 172, 32);
+}
+
+.sessao-educacao a {
+    background-color: rgb(253, 119, 231);
+}
+
+.sessao-educacao a:hover {
+    background-color: rgb(253, 74, 223);
+}
+
+.sessao-tecnologia a {
+    background-color: rgb(252, 121, 121);
+}
+
+.sessao-tecnologia a:hover {
+    background-color: rgb(255, 72, 72);
+}
+
+.noticia-resumo {
+    margin: 10px 0;
+}
